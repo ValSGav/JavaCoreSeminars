@@ -1,5 +1,10 @@
 package seminar3;
 
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class Main {
     public static void main(String[] args) {
         Employee[] company = {
@@ -64,11 +69,27 @@ public class Main {
 
 
 
+        Student[] students = new Student[]{
+                new Student("Vasya", "Informatic")
+        };
+
+        List<Student> firstFiveStudents = Arrays.stream(students)
+                .filter(s->s.getAverageGrade() > 4.5)
+                .sorted()
+                .limit(5)
+                .collect(Collectors.toList());
+
+
     }
+
+
     public static void printCompanyInfo(Employee[] employees){
         for (Employee emp: employees
              ) {
             System.out.println(emp.getEmployeeFormatInfo());
         }
     }
+
+
 }
+
