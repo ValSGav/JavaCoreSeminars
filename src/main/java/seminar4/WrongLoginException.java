@@ -1,4 +1,4 @@
-package Seminar4;
+package seminar4;
 
 public class WrongLoginException extends RuntimeException {
 

@@ -1,10 +1,8 @@
-package Seminar4.HomeWork.impl;
+package seminar4.HomeWork.impl;
 
-import Seminar4.HomeWork.AvailableItem;
-import Seminar4.HomeWork.Customer;
-import Seminar4.HomeWork.Gender;
-import Seminar4.HomeWork.exception.NotExistCustomerException;
-import Seminar4.HomeWork.exception.NotExistProductException;
+import seminar4.HomeWork.AvailableItem;
+import seminar4.HomeWork.Customer;
+import seminar4.HomeWork.exception.NotExistCustomerException;
 
 import java.util.Optional;
 

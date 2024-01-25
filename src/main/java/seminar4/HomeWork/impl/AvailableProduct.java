@@ -1,10 +1,10 @@
-package Seminar4.HomeWork.impl;
+package seminar4.HomeWork.impl;
 
-import Seminar4.HomeWork.AvailableItem;
+import seminar4.HomeWork.AvailableItem;
 
-import Seminar4.HomeWork.Product;
+import seminar4.HomeWork.Product;
 
-import Seminar4.HomeWork.exception.NotExistProductException;
+import seminar4.HomeWork.exception.NotExistProductException;
 
 import java.util.Optional;
 

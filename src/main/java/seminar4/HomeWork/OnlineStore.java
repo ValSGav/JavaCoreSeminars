@@ -1,12 +1,11 @@
-package Seminar4.HomeWork;
+package seminar4.HomeWork;
 
-import Seminar4.HomeWork.impl.AvailableCustomer;
-import Seminar4.HomeWork.impl.AvailableProduct;
+import seminar4.HomeWork.impl.AvailableCustomer;
+import seminar4.HomeWork.impl.AvailableProduct;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.GregorianCalendar;
 
 public class OnlineStore {

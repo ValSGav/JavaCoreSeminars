@@ -1,4 +1,4 @@
-package Seminar4.HomeWork.exception;
+package seminar4.HomeWork.exception;
 
 public class NotExistProductException extends RuntimeException{
     String productName;

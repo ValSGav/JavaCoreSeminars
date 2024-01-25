@@ -1,9 +1,8 @@
-package Seminar4.HomeWork;
+package seminar4.HomeWork;
 
 import lombok.Data;
 
 import java.util.Calendar;
-import java.util.Date;
 import java.util.Objects;
 
 @Data

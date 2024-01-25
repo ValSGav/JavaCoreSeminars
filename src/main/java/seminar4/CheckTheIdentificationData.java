@@ -1,4 +1,4 @@
-package Seminar4;
+package seminar4;
 
 public class CheckTheIdentificationData {
     static boolean CheckLoginPassword(String login, String password, String confirm) throws WrongLoginException, WrongPasswordException{
